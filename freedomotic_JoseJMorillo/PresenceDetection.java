@@ -132,15 +132,25 @@ public class PresenceDetection
     }
 
     /**
+     * Detecta si se puede acceder a un host IP (servidor) mediante la herramienta 'ping'.
      * Detects if an ip host is reachable by using 'ping' tool.
      *
+     * Parámetro de entrada la dirección IP
      * @param host ip address
+     * 
+     * El método devuelve true o false si está al alcance o no.
      * @return true if host is reachable, false otherwise
-     */
+     */    
     private boolean ping(String host) throws IOException, InterruptedException {
+        
         //Pregunta si el Sistema Operativo en el que se ejecuta es Windows. Si Falso será otro como Linux por ejemplo.
         boolean isWindows = System.getProperty("os.name").toLowerCase().contains("win");
 
+        /*Crea el Proceso con el comando de Invocación que es un Ping
+        *Dependiendo del S.O. detectado envía un parámetro distinto (-n o -c)
+        *Ping sin parámetros envía 4 solicitudes con un segundo de espera entre cada una. Con -n 1 estamos enviando sólo una.
+        *En sistemas como Linux -c es el equivalente
+        */
         ProcessBuilder processBuilder = new ProcessBuilder("ping", isWindows ? "-n" : "-c", "1", host);
         Process proc = processBuilder.start();
 

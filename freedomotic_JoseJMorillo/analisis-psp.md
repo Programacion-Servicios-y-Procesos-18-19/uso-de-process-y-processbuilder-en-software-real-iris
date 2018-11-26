@@ -29,7 +29,7 @@ Se puede integrar con tecnologías populares de automatización como BTicino Ope
 
 
 * Ejemplo del código   
-  ![Captura](https://drive.google.com/open?id=1LkolJrT1ue7amS_qW5oS4ZHn2YFKmwaA)
+![Captura](https://drive.google.com/open?id=1LkolJrT1ue7amS_qW5oS4ZHn2YFKmwaA)
 
 **¿De qué forma se crea el proceso hijo? comando de invocación, parámetros… Se crea dentro de un método denominado “ping”, que a su vez está dentro de la clase PresenceDetection.java.** 
 

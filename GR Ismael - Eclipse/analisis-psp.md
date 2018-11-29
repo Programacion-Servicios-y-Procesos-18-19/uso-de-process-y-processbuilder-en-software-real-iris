@@ -3,7 +3,7 @@
 ## Información del proyecto
 Este proyecto se basa en una herramienta multiplataforma que se basa en la nube para que los desarrolladores puedan trabajar de manera local o remota.
 
-## Che soporta cualquier framework y lenguaje de programación, y es expansible, lo que quiere decir que los propios desarrolladores pueden crear sus propias extensiones o modificar los plug-ins existentes a su antojo. También tiene una función de vista previa para poder ver el proyecto de la misma manera que lo harán los usuarios.
+Che soporta cualquier framework y lenguaje de programación, y es expansible, lo que quiere decir que los propios desarrolladores pueden crear sus propias extensiones o modificar los plug-ins existentes a su antojo. También tiene una función de vista previa para poder ver el proyecto de la misma manera que lo harán los usuarios.
 
 ## Enlace a la web oficial
 [Pagina oficial](https://www.eclipse.org/che/)

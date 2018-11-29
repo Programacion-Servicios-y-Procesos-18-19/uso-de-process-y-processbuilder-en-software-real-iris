@@ -1,37 +1,37 @@
-#ECLIPSE/CHE
+# ECLIPSE/CHE
 
-##Información del proyecto
+## Información del proyecto
 Este proyecto se basa en una herramienta multiplataforma que se basa en la nube para que los desarrolladores puedan trabajar de manera local o remota.
 
-##Che soporta cualquier framework y lenguaje de programación, y es expansible, lo que quiere decir que los propios desarrolladores pueden crear sus propias extensiones o modificar los plug-ins existentes a su antojo. También tiene una función de vista previa para poder ver el proyecto de la misma manera que lo harán los usuarios.
+## Che soporta cualquier framework y lenguaje de programación, y es expansible, lo que quiere decir que los propios desarrolladores pueden crear sus propias extensiones o modificar los plug-ins existentes a su antojo. También tiene una función de vista previa para poder ver el proyecto de la misma manera que lo harán los usuarios.
 
-##Enlace a la web oficial
+## Enlace a la web oficial
 [Pagina oficial](https://www.eclipse.org/che/)
 
-##Enlace a la documentación oficial
+## Enlace a la documentación oficial
 [Documentacion](https://www.eclipse.org/che/docs/che-6/index.html)
 
-##Nº de estrellas / seguidores en gitHub
+## Nº de estrellas / seguidores en gitHub
 
 Nº estrellas/seguidores: 5144
 Contributors: 109
 
-##Número de Commits
+## Número de Commits
 7318 commits.
 
-##Incidencias (issues) actuales  del proyecto: abiertas y cerradas
+## Incidencias (issues) actuales  del proyecto: abiertas y cerradas
 Incidencias actuales abiertas: 930
 Incidencias cerradas: 6537
 
-##Uso de Process y ProcessBuilder: 
-###¿Cuentas ocurrencias totales en el proyecto aparecen para las clases Process y ProcessBuilder? (si no apareciera ninguna, documéntalo y elige otro proyecto del listado)
+## Uso de Process y ProcessBuilder: 
+### ¿Cuentas ocurrencias totales en el proyecto aparecen para las clases Process y ProcessBuilder? (si no apareciera ninguna, documéntalo y elige otro proyecto del listado)
 Para ProcessBuilder: 24
 Para Process: 517
 
-##código original github del ejemplo de uso (enlace a la línea en sí)
+## código original github del ejemplo de uso (enlace a la línea en sí)
 [Codigo original](https://github.com/eclipse/che/blob/07263f1e30089689d71b057f747a44a29283e3c4/selenium/che-selenium-core/src/main/java/org/eclipse/che/selenium/core/utils/process/ProcessAgent.java)
 
-##código comentado del repositorio de esta actividad
+## código comentado del repositorio de esta actividad
 [Codigo comentado](https://github.com/Programacion-Servicios-y-Procesos-18-19/uso-de-process-y-processbuilder-en-software-real-iris/blob/master/GR%20Ismael%20-%20Eclipse/package%20org.eclipse.che.selenium.core.utils.proces.java)
 
 1. ¿De qué forma se crea el proceso hijo? comando de invocación, parámetros…

@@ -28,11 +28,14 @@ Incidencias cerradas: 6537
 Para ProcessBuilder: 24
 Para Process: 517
 
-## código original github del ejemplo de uso (enlace a la línea en sí)
+## Código original github del ejemplo de uso (enlace a la línea en sí)
 [Codigo original](https://github.com/eclipse/che/blob/07263f1e30089689d71b057f747a44a29283e3c4/selenium/che-selenium-core/src/main/java/org/eclipse/che/selenium/core/utils/process/ProcessAgent.java)
 
-## código comentado del repositorio de esta actividad
+## Código comentado del repositorio de esta actividad
 [Codigo comentado](https://github.com/Programacion-Servicios-y-Procesos-18-19/uso-de-process-y-processbuilder-en-software-real-iris/blob/master/GR%20Ismael%20-%20Eclipse/package%20org.eclipse.che.selenium.core.utils.proces.java)
+
+## Imagen del codigo
+![Código](imagen.PNG)
 
 1. ¿De qué forma se crea el proceso hijo? comando de invocación, parámetros…
 Lo crea pasandole la función como cadena por parámetro, haciendo uso del método principal “process” que devuelve una cadena, ya sea la salida del proceso o si ha tenido fallos, el error del proceso.

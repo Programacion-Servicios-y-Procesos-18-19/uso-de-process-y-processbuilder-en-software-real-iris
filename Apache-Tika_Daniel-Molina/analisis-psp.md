@@ -2,11 +2,11 @@
 ### 1.	[Descripción resumida del proyecto]
 Apache Tika (TM) es un kit de herramientas para detectar y extraer metadatos y contenido de texto estructurado de varios documentos utilizando las bibliotecas de analizadores existentes.
 ### 2.	[Enlace a la web oficial]
-http://tika.apache.org/
+[Web oficial](http://tika.apache.org/)
 ### 3.	[Enlace a la documentación oficial]
-http://tika.apache.org/1.19.1/api/
+[Documentacion oficial](http://tika.apache.org/1.19.1/api/)
 ### 4.	[Captura de pantalla de la web oficial, o aplicación en ejecución, o página gitHub en su defecto]
-![Imagen] (1.jpg)
+![Imagen](1.jpg)
 ### 5.	[Nº de estrellas / seguidores en gitHub]
 0.
 ### 6.	[Commits en el Nº de estrellas / seguidores en gitHub]
@@ -19,13 +19,13 @@ http://tika.apache.org/1.19.1/api/
 25 de Process y 29 de ProcessBuilder
 
 ### [código original github del ejemplo de uso] 
-[Codigo] (https://github.com/Sebastian1984/tika/blob/f2e1937005545da5b9d23683aa0f1c82da1721cc/tika-server/src/main/java/org/apache/tika/server/TikaServerWatchDog.java#L362)
+[Codigo](https://github.com/Sebastian1984/tika/blob/f2e1937005545da5b9d23683aa0f1c82da1721cc/tika-server/src/main/java/org/apache/tika/server/TikaServerWatchDog.java#L362)
 
 
 ### [código comentado del repositorio de ezsta actividad] (enlace a la línea en sí)
-[Codigo] (https://github.com/Programacion-Servicios-y-Procesos-18-19/uso-de-process-y-processbuilder-en-software-real-iris/blob/86e98272209955021ecdfa76ccdd2634b1ea7edd/Apache-Tika_Daniel-Molina/TikaServerWatchDog.java#L362)
+[Codigo](https://github.com/Programacion-Servicios-y-Procesos-18-19/uso-de-process-y-processbuilder-en-software-real-iris/blob/86e98272209955021ecdfa76ccdd2634b1ea7edd/Apache-Tika_Daniel-Molina/TikaServerWatchDog.java#L362)
 ### [transcripción del ejemplo del código]  
-![Imagen] (2.jpg)
+![Imagen](2.jpg)
 ### 2.	¿De qué forma se crea el proceso hijo? comando de invocación, parámetros…
 El proceso se crea dentro de una función llamada “startProcess”, que recibe como parámetros un array de Strings y una dirección, que van a ser utilizadas por varias List como argumentos que se le van a añadir al final al ProcessBuilder mediante builder.command(argList), para finalmente crear el proceso usando dicho ProcessBuilder.
 ### 3.	¿Se conecta el proceso padre a los flujos de entrada, salida o errores del proceso hijo?

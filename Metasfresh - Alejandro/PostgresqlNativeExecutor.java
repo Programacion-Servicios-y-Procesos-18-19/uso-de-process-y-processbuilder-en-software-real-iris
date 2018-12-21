@@ -143,6 +143,7 @@ public class PostgresqlNativeExecutor implements IScriptExecutor
 		try
 		{
 			exitValue = proc.waitFor(); // el proceso hijo se pone en espera
+			//OSCAR: No es correcto: es el proceso actual (el proceso padre) el que se pone en espera hasta que termina el proceso hijo y devuelva su valor.
 		}
 		catch (final InterruptedException e)
 		{
@@ -165,19 +166,23 @@ public class PostgresqlNativeExecutor implements IScriptExecutor
 	}
 
 /* Funcion que crea el proceso padre*/
+//OSCAR: El proceso padre ya está creado (es la aplicación principal), aquí lo que hacemos es lanzar el proceso hijo con un comando y unos argumentos.
 	private Process startProcess(final IScript script)
 	{
 		final List<String> cmdarrayList = new ArrayList<String>();
-		cmdarrayList.add(command);
-		cmdarrayList.addAll(args);
+		cmdarrayList.add(command); //OSCAR: ¿Qué contiene este comando? Lo puedes encontrar en este archivo... (command)
+		cmdarrayList.addAll(args); //OSCAR: ¿Qué argumentos se le pasan al comando? Está también en este archivo...(args)
 		addParameter(cmdarrayList, "-f", script.getLocalFile().getAbsolutePath());
 
 /* crea un proceso padre*/
+// OSCAR: ProcessBuilder no es un "proceso" es una clase que nos ayuda a "construir" el proceso hijo
 		final ProcessBuilder processBuilder = new ProcessBuilder(cmdarrayList);
 		final Map<String, String> env = processBuilder.environment();
 		env.putAll(environment);
 
 /* redirecciona un error del proceso */
+// OSCAR: Lo que se redirecciona es la salida estándar de errores del proceso hijo... y a dónde la redirecciona? 
+// Está indicado en el mismo comentario STAOUT -> standard out es la salida estándard, la pantalla
 		processBuilder.redirectErrorStream(true); // forward STDERR to STDOUT
 
 		final Process proc; // crea un proceso hijo que despues se devolverá
